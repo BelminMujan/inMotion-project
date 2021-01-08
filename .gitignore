@@ -1,0 +1,4 @@
+.env
+/node_modules
+/public/images
+/public/stylesheets/bootstrap-4.3.1-dist

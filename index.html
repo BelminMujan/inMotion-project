@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Cat</title>
+    
+</head>
+<body>
+    
+    <div class="spinnerBody">
+        <div class="spinner">
+            <div class="spinner-tekst"></div>
+            <div class="spinner spinner-red"></div>
+            <div class="spinner spinner-blue"></div>
+            <div class="spinner spinner-yellow"></div>
+        </div>
+    </div>
+
+    <nav id="navbarSpy" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img height="50px" src="./images/logo.png" alt="Logo Image"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="services-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="destinations-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="about-us-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="managment-link" href="#managment">Managment</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="section container-fluid home" id="home">
+        <!-- <div class="background-image"></div> -->
+        <video class="background-video" playsinline autoplay muted loop>
+            <source src="./images/feature-bg-default.mp4" type="video/mp4"> 
+        </video>
+        <h1 class="text-1">SHORT SEA</h1>
+        <H1 class="text-2">SHIPPING SERVICES</H2>
+    </div>
+
+    <div class="section container-fluid our-services p-0" id="services">
+        <div class="row p-2 p-md-5 text-center">
+            <div class="col-12 col-lg-6 p-0">
+                <div class="card m-2">
+                    <img class="card-image" src="./images/domestic-shipping.png"  alt="">
+                    <div class="card-body">
+                        <h3>Domestic Shipping</h3>
+                        <p>We ship from Port Tampa Bay to Ports throughtout the gulf</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-0">
+                <div class="card m-2">
+                    <img class="card-image" src="./images/International-shipping.png"  alt="">
+                    <div class="card-body">
+                        <h3>International Shipping</h3>
+                        <p>Mexico, Latin America, SA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-0">
+                <div class="card m-2">
+                    <img class="card-image" src="./images/fragile.png"  alt="">
+                    <div class="card-body">
+                        <h3>Fragile and/or perishable freight</h3>
+                        <p>We have the perfect vehicle for one-of-kind jobs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-0">
+                <div class="card m-2">
+                    <img class="card-image" src="./images/hazardous.png"  alt="">
+                    <div class="card-body">
+                        <h3>Hazardous materials</h3>
+                        <p>We comply with all Federal Hazardous Material regulations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('/images/dotted.svg');">
+            <div class="container" >
+                <div class="our-services2">
+                    <h3>Short sea shipping services</h3>
+                    <p>Once your freight leaves the loading dock, it's out of your hands but, chances are, not out of 
+                        our head. When you trust us with the on-time delivery of your freight, we fret the big and 
+                        small stuff so you don't have to...
+                    </p>
+                </div>
+                <hr>
+                <div class="our-services2">
+                    <h3>Logistics client testimonials</h3>
+                    <p>It's our privilege to begin building telationships with several Charter Shippers as well as
+                        having earned the trust of clients through the years with prior ventures. From the smallest
+                        parcel to the largest shipment, we've treated each job as the most important one we could,
+                        perform, until the next one
+                    </p>
+                </div>
+                <hr>
+                <div class="our-services2">
+                    <h3>Specialty freight & shipping services</h3>
+                    <p>We have the knowledge, expertise, equipment and people to ship the unshippable. Whatever needs
+                        to get from point A to point B on our initial routes can be transported by us safely and 
+                        quickly. If you have a challenge, we'd love to hear it...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="destinations" class="section destinations container-fluid py-3">
+        <h1 class="display-4 display-md-3 text-center">Destinations</h1>
+        <div class="row">
+            <div class="buttons col-12 col-lg-2 ">
+                <div id="tampa" class="btn btn-outline-info btn-lg m-1">Tampa</div>
+                <div id="miami" class="btn btn-outline-info btn-lg m-1">Miami</div>
+                <div id="jacksonville" class="btn btn-outline-info btn-lg m-1">Jacksonville</div>
+                <div id="savannah" class="btn btn-outline-info btn-lg m-1">Savannah</div>
+                <div id="charlotte" class="btn btn-outline-info btn-lg m-1">Charlotte</div>
+                <div id="atlanta" class="btn btn-outline-info btn-lg m-1">Atlanta</div>
+                <div id="sanAntonio" class="btn btn-outline-info btn-lg m-1">San Antonio</div>
+            </div>
+            <div class="col-12 col-lg-10">
+                <iframe id="locationsMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225918.52145863915!2d-82.67568751524371!3d27.779745130653026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c31f1d2a58a99d%3A0x305de1e1b5f9776d!2sTampa%20Bay!5e0!3m2!1sen!2sba!4v1609933418436!5m2!1sen!2sba" width="100%" height="390" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="section about-us container-fluid py-4">
+        <div class="row">
+            <div class="flip-box mb-3 mb-lg-0">
+                <div class="flip-box-inner">
+                    <div id="box1" class="flip-box-front d-flex justify-content-center align-items-center">
+                        <h1 class="display-3 display-md-1">About us</h1>
+                    </div>
+                    <div class="flip-box-back p-4">  
+                        <p> 
+                            Our business was created to help business like yours get dependable, excellent shipping from loading dock to customer site. <br>
+                            The principles of our business have remained steadfast through the years--fast and safe transport of even the most difficult freight while following all safety and government guidelines. <br>             
+                            When trust us to ship your freight, you'll know that the safe transport of your goods are in the hands of skilled, qualified professionals. <br>
+                            Contact us today to discuss your current and future transportation needs. We have the fleet, trained dock workers, and friendly staff to provide the best customer service in the business.        
+                        </p>
+                        <hr>
+                        <h2>Why choose us?</h2>
+                        <p>
+                            <strong> We'll deliver your hopes, your dreams, your freight--on time.</strong><br>
+                            Your freight is too important to trust to amateurs. We deliver every time, that's a promis <br>
+                            <strong>We know the ins and outs of transportation and logistics</strong> <br>
+                            the Difference in one word, is experience. Our staff, dispatch peoppe, customer service representatives, and mechanics have it in spades <br>
+                            <strong>We're not just a vendor, we're your partner</strong><br>
+                            Transportation needs fluctuate, grow, and evolve in ways you might be able to acticipate. We cal help create not just a solution, but a logistics strategy <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div id="box2" class="flip-box-front d-flex justify-content-center align-items-center">
+                        <h1 class="display-3 display-md-1">History</h1>
+                    </div>
+                    <div class="flip-box-back p-4">  
+                        <p>
+                            Work Cat Trans Gulf (WCTG) is a short sea shipping operation that provides trans-Gulf of Mexico container and roll on/roll off freight transportation services between the ports of Tampa, Florida and Brownsville, Texas utilizing its own game-changing proprietary vessel design known as the “Work Cat.” <br> The Company is the exclusive owner and operator of the fast and highly efficient Work Cat cargo vessel—a modern 400 foot catamaran capable of transporting 300 truckload equivalent shipments. <br> Through its relationships with third party logistics providers, manufactured product shippers, and intermodal carriers, WCTG offers a completely unique alternative form of transportation capable of delivering fast, highly reliable service at low cost relative to all other land and sea-based transport modes. <br> The economies of scale achieved by the Company’s unique catamaran cargo vessel enables the generation of a growing revenue stream and well above average return on investment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="section managment py-3" id="managment">
+       
+        <div class="container-fluid text-center">
+            <h1 class="display-4 display-md-3">Management</h1>
+            <p>
+                Work Cat Trans Gulf has an experienced management team that is skilled in maritime cargo marketing, sales, and operations as well as vessel design and construction. The team’s years of experience and diverse backgrounds include national-level executive leadership and new business development.
+            </p>
+        </div>
+
+        <div class="container-fluid py-2 cards">
+
+            <button type="button" class="custom-card" data-bs-toggle="modal" data-bs-target="#hoffman">
+                <img src="./images/employee/emp1.jpg">
+                <div class="text">
+                    <h3>Hank Hoffman</h3>
+                    <p>Chief Executive Officer</p>
+                </div>
+            </button>
+        
+            <div class="modal fade" id="hoffman" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header px-5">
+                        
+                        <div class="my-auto" >
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Hank Hoffman
+                            </h5>
+                            <p class="m-0">
+                                Chief Executive Officer
+                            </p>
+                        </div>
+                        <img class="mr-3" src="./images/employee/emp1.jpg">
+
+                    </div>
+                    <div class="modal-body">
+                        Mr. Hoffman has over twenty-five years of executive management experience in the transportation industry. Prior to his role as a founder of Phoenix Trans Gulf, he served as President and Chief Operating Officer of Integrated Freight Corporation, a publicly traded truckload carrier as well as founder and President of SeaBridge Freight, a short sea intermodal barge business. Before joining SeaBridge, he was founder and Chairman of SiriCOMM, Inc., a wireless networking and applications service provider dedicated to the commercial trucking industry. Mr. Hoffman’s trucking experience includes owner and president of Hook Up, Inc., the second largest new truck driveaway service in the U.S. and president of Tri-State Motor Transit, the industry’s largest transporter of munitions, radioactive materials, and hazardous waste. He served as an officer in the United States Army for six years where he completed two successful command assignments. He earned a Bachelor of Science degree from the United States Military Academy, West Point, NY and a MBA from the University of Wisconsin, Oshkosh, WI.
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <button type="button" class="custom-card" data-bs-toggle="modal" data-bs-target="#smith">
+                <img src="./images/employee/emp2.png">
+                <div class="text">
+                    <h3>David Smith</h3>
+                    <p>Vice President</p>
+                </div>
+            </button>
+            
+            <div class="modal fade" id="smith" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header px-5">
+                        <div class="my-auto" >
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                David Smith
+                            </h5>
+                            <p class="m-0">
+                                Vice President
+                            </p>
+                        </div>
+                        <img class="mr-3" src="./images/employee/emp2.png">
+
+                    </div>
+                    <div class="modal-body">
+                        Manufacturing David Smith is presently the CEO of Work Cat Engineering (WCE) a company he started 2 years ago. The company’s products are based on an innovative application of existing catamaran technology and are focused on Cargo Vessels. The Company has filed and received hull registration and protection under sections 408-410 of title 17of the United States code for a deck arrangement for LNG powered Catamarans. WCE has registered the proposed container deck arrangements for the virtual gas pipeline LNG marine transportation vessel. Mr. Smith has been an active investor undervalued companies with poor management and unlocked value through altering management. He was a partner in Oak Creek Capital a value oriented hedge fund with compounded returns to investors of 30%. Mr. Smith was partner in the Investment Research and Money Management Company Sanford C. Bernstein and a Lobbyist for the General Electric Company, Aircraft Engine Division, located in Washington DC. He started his career after college as an Air Force Fighter Pilot and was instrumental in developing and testing several state of the art Air Force aircraft combat oriented systems while being an instructor at the Navy’s Top Gun School. Mr. Smith has two advanced degrees an MBA and MA from Georgetown University
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <button type="button" class="custom-card" data-bs-toggle="modal" data-bs-target="#raley">
+                <img src="./images/employee/emp3.jpg">
+                <div class="text">
+                    <h3>Chris Raley</h3>
+                    <p>Vice President</p>
+                </div>
+            </button>
+            
+            <div class="modal fade" id="raley" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header px-5">
+                        <div class="my-auto" >
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Chris Raley
+                            </h5>
+                            <p class="m-0">
+                                Vice President
+                            </p>
+                        </div>
+                        <img class="mr-3" src="./images/employee/emp3.jpg">
+
+                    </div>
+                    <div class="modal-body">
+                        Operations Mr. Raley’s career includes over 20 years of executive leadership experience in transportation and commercial finance. His career began with his family’s business, a chain of Peterbilt road tractor dealerships located in North Carolina, South Carolina, and Georgia. After participating in succession with his brothers, he eventually sold his share of the company and founded several successful commercial finance companies, ranging from First Prime Capital (a general lessor with $45MM in assets ), Transportation Capital (a transportation focused finance company), and Raley Commercial Finance & Leasing (a boutique finance and advisory firm), which merged with First Source Funding to form First Source Business Finance, LLC. Mr. Raley resides in Florence SC with his wife and 5                        
+                        </div>
+                </div>
+                </div>
+            </div>
+
+            <button type="button" class="custom-card" data-bs-toggle="modal" data-bs-target="#raley">
+                <img src="./images/employee/emp4.jpg">
+                <div class="text">
+                    <h3>Rob Norton</h3>
+                    <p>Chief Naval Architect and Designer</p>
+                </div>
+            </button>
+            
+            <div class="modal fade" id="raley" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header px-5">
+                            <div class="my-auto" >
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    Rob Norton
+                                </h5>
+                                <p class="m-0">
+                                    Chief Naval Architect and Designes
+                                </p>
+                            </div>
+                            <img class="mr-3" src="./images/employee/emp4.jpg">
+
+                        </div>
+                    <div class="modal-body">
+                        Rob Norton President of SwiftWater Consultants is a Professional Engineer (PE) with 17 years’ experience as a Naval Architect and Marine/Mechanical engineer. SwiftWater has extensive experience with classing societies (ABS DNV LLOYDS) and Coast Guard certifications. Rob has designed a substantial portfolio of maritime vessels: Offshore Supply Vessels, Barges and large Catamarans. SwiftWater brings other very qualified engineers into the WCE domain.                    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us-background">
+        <div class="contact-us col-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-xl-4 col-xl-4 py-5">
+            <h1 class="disply-5 text-center">Contact us</h1>
+            <form action="/contact-us" method="POST">
+                <div class="row mb-1 ">
+                    <div class="col-md-6 px-3 mb-2">
+                        <input type="text" class="form-control" id="first-name" name="firstName" placeholder="First name">
+                    </div>
+                    <div class="col-md-6 px-3 mb-2">
+                        <input type="text" class="form-control" id="last-name" name="lastName" placeholder="Last name">
+                    </div>
+                </div>    
+                <div class="row">   
+                    <div class="col-12 px-3 mb-2">
+                        <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Enter your e-mail">
+                        <label class="label mb-1" for="ask-us">Ask us anything</label>     
+                        <textarea class="form-control" id="ask-us" name="askUs" rows="4" placeholder="..."></textarea>
+                    </div>
+                </div>
+                <button class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+        <div class="footer">
+            <p>Developed by Belmin Mujan</p>
+            <div class="icons">
+                <a href="https://www.instagram.com" target="_blank">
+                <img src="/images/icons/instagram.png" alt="">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                <img src="/images/icons/facebook.png" alt="">
+                </a>
+                <a href="https:/www.facebook.com" target="_blank">
+                <img src="/images/icons/twitter.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="/stylesheets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
